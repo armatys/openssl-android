@@ -82,4 +82,4 @@ LOCAL_LDLIBS += -ldl
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE:= libcrypto_static
 LOCAL_ADDITIONAL_DEPENDENCIES := $(local_additional_dependencies)
-include $(BUILD_HOST_STATIC_LIBRARY)
+# include $(BUILD_HOST_STATIC_LIBRARY)
